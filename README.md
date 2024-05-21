@@ -9,10 +9,12 @@ Data Preprocessing:
 - Encodes categorical data efficiently (e.g., one-hot encoding, label encoding).
 - Performs feature scaling to ensure features are on a similar scale.
 - Explores feature generation techniques to create potentially informative features from existing ones (if applicable).
+  
 Exploratory Data Analysis (EDA):
 - Analyzes the distribution of features and target variable to understand relationships.
 - Identifies potential outliers and handles them appropriately.
 - Visualizes relationships between features and the target using techniques like scatter plots, histograms, and boxplots.
+  
 Modeling:
 - Implements and compares five machine learning algorithms commonly used for classification tasks:
 - Support Vector Classifier (SVC)
@@ -21,6 +23,7 @@ Modeling:
 - Light Gradient Boosting Machine (LGBM)
 - Random Gradient Boosting Classifier (RGB Classifier)
 - Performs hyperparameter tuning using techniques like grid search or random search to optimize model performance.
+  
 Evaluation:
 - Utilizes cross-validation (e.g., stratified k-fold) to obtain robust performance estimates and prevent overfitting.
 - Reports various evaluation metrics, including accuracy, F1-score, precision, recall, and confusion matrix, to comprehensively assess model performance.
